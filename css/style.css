@@ -36,6 +36,7 @@ main h1 {
 
 label {
     display: flex;
+    
 }
 
 
@@ -77,18 +78,25 @@ button {
     background-color: black;
     color: white;
     display: flex;
-    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
 .google{
     display: flex;
-    border: 1px solid gray ;
+    text-decoration: none;
+    color: var(--black);
+    justify-content: center; 
+    text-align: center; 
+    
     
 }
     
 
-.connexion {
+form,label,.google{
+    justify-content: center;
     align-items: center;
-    display: flex;
+    text-align: center;
 }
