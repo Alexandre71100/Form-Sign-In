@@ -30,16 +30,6 @@ main section {
     width: 50%;
 }
 
-main h1 {
-    font-size: 4rem;
-}
-
-label {
-    display: flex;
-    
-}
-
-
 .presentation {
     background: url(../imgs/women_book.jpg) center no-repeat;
     background-size: cover;
@@ -73,30 +63,69 @@ label {
 
 }
 
-button {
-    padding: 10px 150px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+/**
+* Formulaire
+*/
+
+
+.connexion form {
+    width: 50%;
+    margin: auto;
 }
 
+.connexion form h1{
+    font-size: 2.3rem;
+    margin: 0;
+}
 
-.google{
+.connexion form p{
+    color: var(--gray);
+    margin: 0 0 32px 0; /* Haut, droite , bas et gauche */
+}
+
+.connexion form label {
+    display: block;
+    font-size: 0.85rem;
+    font-size: 600;
+    margin-bottom: 2px;
+}
+
+.connexion form input {
+    display: block;
+    border: 1px solid var(--gray-light);
+    border-radius: 4px;
+    padding: 12px; /* 12px de marge intérieur sur les 4 côtés */
+    margin-bottom: 16px;  
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.connexion form button{
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 12px 0;
+    border: 0;
+    width: 100%;
+
+}
+
+.connexion form a {
+    border: 1px solid var(--gray-light);
     display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: var(--black);
-    justify-content: center; 
-    text-align: center; 
-    
-    
+    font-size: 0.9rem;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-top: 12px;
 }
-    
 
-form,label,.google{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.connexion form img {
+    width: 5%;
 }
+
