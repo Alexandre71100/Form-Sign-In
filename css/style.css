@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');   /* font-family: 'Nunito', sans-serif; */
+
+
+:root {
+     /* Quand un hexadécimal comporte 6 fois le même caractères, ont peut en mettre que 3 */
+     --black: #000;
+     --white: #FFF;
+     --white-opacity-85: rgba(255, 255, 255, 0.85);
+     --gray: rgb(128, 128, 128);
+     --gray-light: #cbcbcb;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif ;
+    font-size: 16px;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main section {
+    width: 50%;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+label {
+    display: flex;
+}
+
+
+.presentation {
+    background: url(../imgs/women_book.jpg) center no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+
+    /* Astuce 1 */
+  /*  position: relative; */
+
+  /* Astuce 2 */
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+
+}
+
+.presentation div {
+    background-color: var(--white-opacity-85);
+    width: 65%;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    /* Astuce 1 */
+
+   /* position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); */
+
+}
+
+button {
+    padding: 10px 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 5px;
+}
+
+
+.google{
+    display: flex;
+    border: 1px solid gray ;
+    
+}
+    
+
+.connexion {
+    align-items: center;
+    display: flex;
+}
